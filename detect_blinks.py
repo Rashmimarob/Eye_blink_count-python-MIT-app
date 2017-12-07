@@ -141,8 +141,8 @@ while True:
 	if key == ord("q"):
 		break
 print(TOTAL)
-firebase =firebase.FirebaseApplication('https://demomit-c318f.firebaseio.com',None)
-result=firebase.put('/demomit-c318f','sunidhi',TOTAL)
+firebase =firebase.FirebaseApplication('enter your firebase url',None)
+result=firebase.put('/user','Enter user name',TOTAL)
 print(result)==None
 True
 # do a bit of cleanup
